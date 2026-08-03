@@ -8,6 +8,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 from pipelines.news_pipeline import news_pipeline
+from pipelines.aws_s3_pipeline import upload_s3_pipeline
 
 default_args = {
     'owner': 'Madhuri',
@@ -37,10 +38,10 @@ extract = PythonOperator(
 )
 
 # upload to S3
-# upload_s3 = PythonOperator(
-#     task_id='upload_to_s3',
-#     python_callable=upload_s3_pipeline,
-#     dag=dag
-# )
+upload_s3 = PythonOperator(
+    task_id='upload_to_s3',
+    python_callable=upload_s3_pipeline,
+    dag=dag
+)
 
-# extract >> upload_s3
+extract >> upload_s3

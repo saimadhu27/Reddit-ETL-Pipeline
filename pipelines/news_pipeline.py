@@ -14,3 +14,5 @@ def news_pipeline(file_name: str, query:str, limit=10):
     # loading data to csv
     output_file = os.path.join(OUTPUT_PATH, f'{file_name}.csv')
     load_data_to_csv(news_df, output_file)
+    
+    return output_file
