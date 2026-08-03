@@ -1,4 +1,5 @@
 import requests
+import pandas as pd
 
 def search_hn(query, limit=10):
     """Returns a lit of dicts according to the search term
@@ -38,3 +39,11 @@ def extract_data(search_results):
             "url": result.get("url")
         })
     return extracted_data 
+
+def transform_data(news_df: pd.DataFrame):
+    news_df['created_at'] = pd.to_datetime(news_df['created_at'])
+    news_df['updated_at'] = pd.to_datetime(news_df['updated_at'])
+    return news_df
+
+def load_data_to_csv(data: pd.DataFrame, path: str):
+    data.to_csv(path, index=False)

@@ -1,0 +1,11 @@
+object_id,story_id,title,author,created_at,num_comments,points,updated_at,url
+48856540,48856540,"From ETL, ELT, EtLT to agent-driven data engineering with Apache SeaTunnel",luckypeter,2026-07-10 06:44:54+00:00,0,1,2026-07-10 06:50:03+00:00,https://seatunnel.apache.org/blog/from-etl-elt-etlt-to-agent/
+48746115,48746115,Where AI Agents Belong in Data Engineering: The Correctness Layer,zazuke,2026-07-01 13:07:11+00:00,0,3,2026-07-01 13:23:49+00:00,https://www.altimate.ai/blog/where-ai-agents-belong-in-data-engineering-the-correctness-layer/
+48743667,48743667,Show HN: Agentic Data Engineering,zubairov,2026-07-01 08:13:51+00:00,0,2,2026-07-01 08:19:15+00:00,https://www.revos.ai/blog/agentic-data-engineering
+48732239,48732239,"The Grammar of Data: Define Once, Run Anywhere with Cross-Engine Expressions",zazuke,2026-06-30 13:09:06+00:00,0,2,2026-06-30 14:24:15+00:00,https://xorq.dev/blog/grammar-for-data-engineering/
+48634023,48634023,Show HN: Runlet – Embeddedable JVM Pipelines,devgoth,2026-06-22 18:29:37+00:00,0,2,2026-06-22 19:21:57+00:00,https://github.com/tjb/Runlet
+48591699,48591699,Data Engineering Acquisitions (2022-2026),sebg,2026-06-18 21:13:26+00:00,0,3,2026-06-19 05:35:43+00:00,https://www.ssp.sh/brain/data-engineering-acquisitions/
+48496442,48496442,Historical Data Engineering Toolkit,temp_debugger,2026-06-11 21:08:49+00:00,0,1,2026-06-12 00:47:20+00:00,https://bitemporal-debugger.vercel.app/
+48387692,48387692,Data Engineering Concepts: 101 Concepts Every Data Engineer Should Know,zazuke,2026-06-03 18:20:55+00:00,0,5,2026-06-04 04:19:29+00:00,https://www.ssp.sh/brain/data-engineering-concepts/
+48371115,48371115,"Hands-On with Coalesce MCPs: Transform, Catalog, and Quality",mooreds,2026-06-02 14:56:26+00:00,0,2,2026-06-02 15:18:40+00:00,https://coalesce.io/product-technology/hands-on-with-coalesces-mcps-part-2-building-data-engineering-agents-with-skills/
+48343061,48343061,Building a LangGraph pipeline for production data engineering,labyrinthAC,2026-05-31 04:38:25+00:00,0,13,2026-06-01 16:54:34+00:00,https://labyrinthanalyticsconsulting.com/blog/building-first-langgraph-pipeline
