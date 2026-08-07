@@ -1,1 +1,1 @@
-# Reddit-ETL-Pipeline
+# News-ETL-Pipeline
